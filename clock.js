@@ -26,7 +26,7 @@ function showTime()
     seconds = seconds < 10 ? "0" + seconds : seconds;
 
     //final time string
-    let currentTime = hour + " : " + minutes + " : " + seconds + am_pm;
+    let currentTime = hour + " : " + minutes + " : " + seconds + " " + am_pm;
      console.log(" time is " + currentTime);
       document.getElementById("clock").innerHTML = currentTime;
 }
