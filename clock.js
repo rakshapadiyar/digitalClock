@@ -6,18 +6,18 @@ function showTime()
     let minutes = time.getMinutes();
     let seconds = time.getSeconds();
 
-    let am_pm = "am";
+    let am_pm = "am IST";
 
     //since time is obtained from the above methods in military format, convert them to standard format by below conditions
     if(hour == 0)
     {
         hour=12;
-        am_pm ="am";
+        am_pm ="AM IST";
     }
     if(hour > 12)
     {
         hour=hour-12;
-        am_pm="pm"
+        am_pm="PM IST"
     }
 
     // since time is shown in hh:mm:ss format, <10 corner case should be taken care of
