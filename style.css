@@ -1,0 +1,18 @@
+#clock{
+    font-size: 100px;
+    text-align: center;
+    color: rgb(53, 12, 80);
+    border: 2px dashed brown;
+    margin: 50px;
+    width: 900px;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+     bottom: 0; 
+    left: 0;
+    right: 0; 
+    height: 100px;
+    margin: auto; 
+    
+
+}
